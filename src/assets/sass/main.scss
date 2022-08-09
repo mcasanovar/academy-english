@@ -1,0 +1,16 @@
+@import './normalize';
+// variables
+@import './variables';
+// components
+@import './components/sideBar';
+@import './components/navBar';
+@import './components/wrapperSection';
+@import './components/cardLevel';
+@import './components/addCardLevel';
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
