@@ -6,6 +6,9 @@ import App from "./App";
 import { Levels, Students, Dashboard } from "./pages";
 
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+
 import "./assets/sass/main.scss";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
